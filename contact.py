@@ -9,4 +9,4 @@ class Contact:
         self.homephone=homephone;
         self.mobile=mobile;
         self.mail=mail;
-        self.birtyhear=birthyear;
+        self.birthyear=birthyear;

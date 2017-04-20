@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-from selenium.webdriver.firefox.webdriver import WebDriver
 import unittest
 
-from myenv.contact  import Contact
+from selenium.webdriver.firefox.webdriver import WebDriver
+
+from contact import Contact
 
 
 def is_alert_present(wd):
@@ -12,12 +13,12 @@ def is_alert_present(wd):
     except:
         return False
 
-class add_new_contact(unittest.TestCase):
+class test_add_new_contact(unittest.TestCase):
     def setUp(self):
         self.wd = WebDriver()
         self.wd.implicitly_wait(60)
     
-    def add_new_contact(self):
+    def test_add_new_contact(self):
 
         wd = self.wd
         self.open_home_page(wd)
@@ -27,7 +28,7 @@ class add_new_contact(unittest.TestCase):
                                    birthyear="1999"))
         self.submit_contact(wd)
         self.return_home_page(wd)
-        self.logout(wd)
+        self.logout(self,wd)
 
     def submit_contact(self, wd):
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()

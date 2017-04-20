@@ -3,7 +3,7 @@ import unittest
 
 from selenium.webdriver.firefox.webdriver import WebDriver
 
-from myenv.group import Group
+from group import Group
 
 
 def is_alert_present(wd):
@@ -56,11 +56,11 @@ class test_add_group(unittest.TestCase):
 
     def fill_group_form(self, wd, group):
         wd.find_element_by_name("group_name").click()
-        wd.find_element_by_name("group_name").clear()
+    #    wd.find_element_by_name("group_name").clear()
         wd.find_element_by_name("group_name").send_keys("%s" % group.name)
-        if not wd.find_element_by_xpath(
-                "//div[@id='content']//select[normalize-space(.)='[none] abc']//option[1]").is_selected():
-            wd.find_element_by_xpath("//div[@id='content']//select[normalize-space(.)='[none] abc']//option[1]").click()
+       # if not wd.find_element_by_xpath(
+        #        "//div[@id='content']//select[normalize-space(.)='[none] abc']//option[1]").is_selected():
+         #   wd.find_element_by_xpath("//div[@id='content']//select[normalize-space(.)='[none] abc']//option[1]").click()
         wd.find_element_by_name("group_header").click()
         wd.find_element_by_name("group_header").clear()
         wd.find_element_by_name("group_header").send_keys("%s" % group.header)
