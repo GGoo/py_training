@@ -1,6 +1,7 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
 from decompozyction.fixture.session import SessionHelper
 from decompozyction.fixture.group import GroupHelper
+from decompozyction.fixture.contact import  ContactHelper
 
 
 class Application:
@@ -12,6 +13,7 @@ class Application:
         #inicjacja pomocników
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
+        self.contact = ContactHelper(self)
 
     def open_home_page(self):
         wd = self.wd
@@ -20,5 +22,8 @@ class Application:
     def destroy(self):
         self.wd.quit()
 
+  #Contacts
 
-
+    def open_edit_page(self):
+        wd = self.wd
+        wd.find_element_by_link_text("add new").click()
