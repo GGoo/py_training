@@ -61,6 +61,14 @@ class ContactHelper:
         wd.find_element_by_name("byear").send_keys(contact.birthyear)
         wd.find_element_by_css_selector("body").click()
 
+    def delete_first_contact(self):
+        wd = self.app.wd
+        wd.get("http://localhost/addressbook/index.php/")
+        wd.find_element_by_name("selected[]")
+       # wd.find_element_by_xpath("//*[@id="content"]/form[2]/div[2]/input")
+        #wd.find_element_by_css_selector("# content > form:nth-child(10) > div:nth-child(8) > input[type="button"]")
+        self.return_edit_page()
+
     def submit_contact(self):
         wd = self.app.wd
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
