@@ -3,7 +3,6 @@ class GroupHelper:
     def __init__(self, app):
         self.app = app
 
-
     def open_group_page(self):
          wd = self.app.wd
          wd.find_element_by_link_text("groups").click()
@@ -24,9 +23,7 @@ class GroupHelper:
         wd.find_element_by_name("submit").click()
         self.return_groups_page()
 
-
-
     def return_groups_page(self):
-        wd= self.app.wd
+        wd = self.app.wd
         wd.find_element_by_link_text("group page").click()
 
