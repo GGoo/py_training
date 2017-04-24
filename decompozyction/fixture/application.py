@@ -22,8 +22,3 @@ class Application:
     def destroy(self):
         self.wd.quit()
 
-  #Contacts
-
-    def open_edit_page(self):
-        wd = self.wd
-        wd.find_element_by_link_text("add new").click()
