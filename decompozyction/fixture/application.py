@@ -1,7 +1,6 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
-#from session.py import SessionHelper
-#from group import GroupHelper
-#from fixture.group import Group
+from decompozyction.fixture.session import SessionHelper
+from decompozyction.fixture.group import GroupHelper
 
 class Application:
 

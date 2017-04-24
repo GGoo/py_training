@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
-import pytest
-from group import Group
-from application import Application
+import exc4
+
+from decompozyction.model.group import Group
+#from group import Group
+
+from decompozyction.fixture.application import Application
+#from application import Application
 
 
-@pytest.fixture
+@exc4.fixture
 def app(request):
     fixture = Application()
     request.addfinalizer(fixture.destroy)
