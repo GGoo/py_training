@@ -31,6 +31,7 @@ class GroupHelper:
         wd.find_element_by_name("delete").click()
         self.return_groups_page()
 
+
     def return_groups_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("group page").click()
