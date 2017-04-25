@@ -1,6 +1,6 @@
 import pytest
-from decompozyction.model.group import Group
-from decompozyction.fixture.application import Application
+#from modyfication.model.group import Group
+from modyfication.fixture.application import Application
 
 
 @pytest.fixture
@@ -10,8 +10,8 @@ def app(request):
     return fixture
 
 
-def test_delete_first_group(app):
+def test_modyfing_first_contact(app):
     app.session.login(username="admin", password="secret")
-    app.group.delete_first_group()
+    app.group.modyfing_first_group()
     app.session.logout()
 

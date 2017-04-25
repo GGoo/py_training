@@ -1,6 +1,6 @@
 import pytest
-from decompozyction.model.group import Group
-from decompozyction.fixture.application import Application
+#from modyfication.model.group import Group
+from modyfication.fixture.application import Application
 
 
 @pytest.fixture

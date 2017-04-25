@@ -68,6 +68,17 @@ class ContactHelper:
         wd.find_element_by_xpath("//*[@id ='content']/form[2]/div[2]/input")
         return("http://localhost/addressbook/index.php")
 
+    def test_modyfing_first_contact(self):
+        wd = self.app.wd
+        wd.get("http://localhost/addressbook/index.php/")
+        wd.find_element_by_xpath("//*[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        wd.find_element_by_xpath("// *[ @ id = 'content'] / form[1] / input[3]").clear()
+        wd.find_element_by_name("firstname").send_keys("Marysia")
+        wd.find_element_by_name("update").click()
+        return("http://localhost/addressbook/index.php")
+
+
+
 
     def submit_contact(self):
         wd = self.app.wd

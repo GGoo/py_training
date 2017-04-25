@@ -31,6 +31,21 @@ class GroupHelper:
         wd.find_element_by_name("delete").click()
         self.return_groups_page()
 
+    def modyfing_first_group(self):
+        wd = self.app.wd
+        self.open_group_page()
+        wd.find_element_by_xpath("//*[@id='content']/form/span[1]/input").click()
+        wd.find_element_by_xpath("//*[@id='content']/form/input[6]").click()
+        wd.find_element_by_name("group_name").clear()
+        wd.find_element_by_name("group_name").send_keys("group11")
+       # wd.find_element_by_xpath("//*[@id='content']/form/label[3]").clear()
+        wd.find_element_by_xpath("//*[@id='content']/form/label[3]").send_keys("groupchanged11")
+        wd.find_element_by_name("group_footer").clear()
+        wd.find_element_by_name("group_footer").send_keys("changed")
+        wd.find_element_by_name("update").click()
+        self.return_groups_page()
+
+
 
     def return_groups_page(self):
         wd = self.app.wd
