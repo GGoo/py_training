@@ -1,5 +1,5 @@
 import pytest
-#from modyfication.model.group import Group
+
 from modyfication.fixture.application import Application
 
 
@@ -12,6 +12,15 @@ def app(request):
 
 def test_modyfing_first_contact(app):
     app.session.login(username="admin", password="secret")
-    app.group.modyfing_first_group()
+    app.contact.modyfing_first_contact()
     app.session.logout()
+
+
+
+
+def test_modyfing_first_contact(app):
+    app.session.login(username="admin", password="secret")
+    app.contact.modyfing_first_contact()
+    app.session.logout()
+
 
