@@ -7,6 +7,8 @@ class GroupHelper:
          wd = self.app.wd
          wd.find_element_by_link_text("groups").click()
 
+# text (wcześniej group)  bo dowolny tekst może być wprowadzony,  równiez none wiec
+    # nazwa pola w ktorej ten tekst ma być wprowadzony - field_name
     def change_field_value(self, field_name, text):
         wd = self.app.wd
         if text is not None:
@@ -14,6 +16,7 @@ class GroupHelper:
             wd.find_element_by_name(field_name).clear()
             wd.find_element_by_name(field_name).send_keys(text)
 
+#ona miala najpierw wszystkie wd.find_element etc i zostala zamieniona
     def fill_group_form(self, group):
         wd = self.app.wd
         self.change_field_value("group_name", group.name)
@@ -22,7 +25,6 @@ class GroupHelper:
 
     def create(self, group):
         wd = self.app.wd
-        self.open_group_page()
         wd.find_element_by_name("new").click()
         self.fill_group_form(group)
         wd.find_element_by_name("submit").click()
@@ -53,4 +55,9 @@ class GroupHelper:
     def return_groups_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("group page").click()
+
+    def count(self):
+        wd = self.app.wd
+        self.open_group_page()
+        return len(wd.find_elements_by_name("selected[]"))
 

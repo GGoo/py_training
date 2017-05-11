@@ -17,6 +17,7 @@ class Application:
 
     def is_valid(self):
         try:
+            #adres strony
             self.wd.current_url
             return True
         except:

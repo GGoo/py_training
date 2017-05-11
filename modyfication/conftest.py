@@ -3,11 +3,14 @@ import pytest
 
 fixture = None
 
+
 @pytest.fixture
 def app(request):
     global fixture
     if fixture is None:
+        #inicjalizacja fikstury
         fixture = Application()
+
     else:
         if not fixture.is_valid():
             fixture = Application()

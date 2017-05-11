@@ -76,7 +76,17 @@ class ContactHelper:
         wd.find_element_by_name("firstname").send_keys("Marysia")
         wd.find_element_by_name("update").click()
         return("http://localhost/addressbook/index.php")
-
+#
+ #   def modyfing_first_group(self, new_group_data):
+  #      wd = self.app.wd
+   #     self.open_group_page()
+    #    self.select_first_group()
+     #   # open modyfication form
+      #  wd.find_element_by_name("edit").click()
+       # self.fill_group_form(new_group_data)
+        #  fill group form
+        #wd.find_element_by_name("update").click()
+        #self.return_groups_page()
 
     def submit_contact(self):
         wd = self.app.wd

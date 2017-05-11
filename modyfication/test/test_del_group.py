@@ -1,15 +1,7 @@
-import pytest
-#from modyfication.model.group import Group
-from modyfication.fixture.application import Application
-
-#
-#@pytest.fixture
-#def app(request):
- #   fixture = Application()
-  #  request.addfinalizer(fixture.destroy)
-   # return fixture
-
+from modyfication.model.group import Group
 
 def test_delete_first_group(app):
+    if app.group.count() == 0:
+        app.group.create(Group(name="test"))
     app.group.delete_first_group()
 
