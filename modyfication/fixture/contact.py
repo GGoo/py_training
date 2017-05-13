@@ -1,3 +1,5 @@
+from modyfication.model.contact import Contact
+
 class ContactHelper:
     def __init__(self,app):
         self.app = app
@@ -68,22 +70,22 @@ class ContactHelper:
         wd.find_element_by_xpath("//*[@id ='content']/form[2]/div[2]/input")
         return("http://localhost/addressbook/index.php")
 
-    def modyfing_first_contact(self, new_contact_data):
+    def modyfing_first_contact(self):
         wd = self.app.wd
-        self.modyfication_first_person(new_contact_data)
-        return ("http://localhost/addressbook/index.php")
-
-    def modyfication_first_person(self):
-        wd= self.app.wd
         wd.get("http://localhost/addressbook/index.php")
         wd.find_element_by_xpath("// *[ @ id = 'maintable'] / tbody / tr[2] / td[8] / a / img").click()
         wd.find_element_by_xpath("// *[ @ id = 'content'] / form[1] / input[3]").clear()
         wd.find_element_by_name("firstname").send_keys("Zuzia ex8")
         wd.find_element_by_name("update").click()
-
+        return ("http://localhost/addressbook/index.php")
 
     def submit_contact(self):
         wd = self.app.wd
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
+
+    def count(self):
+        wd = self.app.wd
+        return len(wd.find_elements_by_name("selected[]"))
+
 
 

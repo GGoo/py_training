@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50bc9eb-8110-47c8-a80f-cf98e6b414e7" name="Default" comment="ex 8">
+    <list default="true" id="a50bc9eb-8110-47c8-a80f-cf98e6b414e7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/fixture/contact.py" afterPath="$PROJECT_DIR$/modyfication/fixture/contact.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/model/contact.py" afterPath="$PROJECT_DIR$/modyfication/model/contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_add_group.py" afterPath="$PROJECT_DIR$/modyfication/test/test_add_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_add_new_contact.py" afterPath="$PROJECT_DIR$/modyfication/test/test_add_new_contact.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_del_contact.py" afterPath="$PROJECT_DIR$/modyfication/test/test_del_contact.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_modyf_contact.py" afterPath="$PROJECT_DIR$/modyfication/test/test_modyf_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_modyf_group.py" afterPath="$PROJECT_DIR$/modyfication/test/test_modyf_group.py" />
     </list>
     <list id="e6c4c0d4-d214-4a4e-b8d2-37752852663c" name="Failed commit: Default" comment="add two test modyfication group and contact" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="test_modyf_contact.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modyfication/model/contact.py">
+      <file leaf-file-name="test_del_group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modyfication/test/test_del_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
       <file leaf-file-name="test_modyf_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -65,11 +65,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modyfication/model/contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modyfication/fixture/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+            <state relative-caret-position="134">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -78,8 +88,8 @@
       <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modyfication/fixture/contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="80" column="65" lean-forward="false" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
+            <state relative-caret-position="115">
+              <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -88,8 +98,20 @@
       <file leaf-file-name="test_add_new_contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_new_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="90">
+              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_del_contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modyfication/test/test_del_contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -101,20 +123,8 @@
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modyfication/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,12 +152,13 @@
       <find>mody</find>
       <find>login</find>
       <find>is_valid</find>
-      <find>fill_group_form</find>
       <find>def fill_group_form</find>
       <find>change_field_value</find>
       <find>open_group_page</find>
       <find>ensure_logout</find>
       <find>new_group_data</find>
+      <find>count</find>
+      <find>fill_group_form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,7 +204,6 @@
         <option value="$PROJECT_DIR$/decompozyction/test/test_del_group.py" />
         <option value="$PROJECT_DIR$/decompozyction/test/test_modyf_group.py" />
         <option value="$PROJECT_DIR$/decompozyction/test/test_modyf_contact.py" />
-        <option value="$PROJECT_DIR$/modyfication/test/test_del_contact.py" />
         <option value="$PROJECT_DIR$/decompozyction/fixture/contact.py" />
         <option value="$PROJECT_DIR$/decompozyction/fixture/group.py" />
         <option value="$PROJECT_DIR$/modyfication/model/group.py" />
@@ -201,19 +211,19 @@
         <option value="$PROJECT_DIR$/modyfication/test/test_del_group.py" />
         <option value="$PROJECT_DIR$/modyfication/fixture/application.py" />
         <option value="$PROJECT_DIR$/modyfication/fixture/session.py" />
-        <option value="$PROJECT_DIR$/modyfication/test/test_add_new_contact.py" />
         <option value="$PROJECT_DIR$/modyfication/conftest.py" />
-        <option value="$PROJECT_DIR$/modyfication/model/contact.py" />
         <option value="$PROJECT_DIR$/modyfication/fixture/group.py" />
         <option value="$PROJECT_DIR$/modyfication/test/test_modyf_group.py" />
         <option value="$PROJECT_DIR$/modyfication/test/test_add_group.py" />
-        <option value="$PROJECT_DIR$/modyfication/fixture/contact.py" />
+        <option value="$PROJECT_DIR$/modyfication/model/contact.py" />
         <option value="$PROJECT_DIR$/modyfication/test/test_modyf_contact.py" />
+        <option value="$PROJECT_DIR$/modyfication/test/test_add_new_contact.py" />
+        <option value="$PROJECT_DIR$/modyfication/test/test_del_contact.py" />
+        <option value="$PROJECT_DIR$/modyfication/fixture/contact.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="719" />
@@ -233,8 +243,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -706,7 +716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494516794403</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ex 8">
+      <created>1494655989676</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1494655989676</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,13 +759,13 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1280" height="719" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="719" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3161239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31532964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18124007" sideWeight="0.5365622" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26953748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18124007" sideWeight="0.4634378" order="7" side_tool="false" content_ui="tabs" />
@@ -785,6 +802,24 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -807,7 +842,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -988,17 +1023,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/test/test_del_contact.py">
+    <entry file="file://$PROJECT_DIR$/modyfication/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/test/test_del_group.py">
+    <entry file="file://$PROJECT_DIR$/modyfication/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1006,26 +1044,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modyfication/test/test_del_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_new_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="90">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/conftest.py">
+    <entry file="file://$PROJECT_DIR$/modyfication/fixture/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="134">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,55 +1092,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/fixture/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        <state relative-caret-position="45">
+          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/fixture/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="80" column="65" lean-forward="false" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
+        <state relative-caret-position="115">
+          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/model/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modyfication/test/test_del_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
