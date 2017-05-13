@@ -68,25 +68,19 @@ class ContactHelper:
         wd.find_element_by_xpath("//*[@id ='content']/form[2]/div[2]/input")
         return("http://localhost/addressbook/index.php")
 
-    def modyfing_first_contact(self):
+    def modyfing_first_contact(self, new_contact_data):
         wd = self.app.wd
+        self.modyfication_first_person(new_contact_data)
+        return ("http://localhost/addressbook/index.php")
+
+    def modyfication_first_person(self):
+        wd= self.app.wd
         wd.get("http://localhost/addressbook/index.php")
         wd.find_element_by_xpath("// *[ @ id = 'maintable'] / tbody / tr[2] / td[8] / a / img").click()
         wd.find_element_by_xpath("// *[ @ id = 'content'] / form[1] / input[3]").clear()
-        wd.find_element_by_name("firstname").send_keys("Marysia")
+        wd.find_element_by_name("firstname").send_keys("Zuzia ex8")
         wd.find_element_by_name("update").click()
-        return("http://localhost/addressbook/index.php")
-#
- #   def modyfing_first_group(self, new_group_data):
-  #      wd = self.app.wd
-   #     self.open_group_page()
-    #    self.select_first_group()
-     #   # open modyfication form
-      #  wd.find_element_by_name("edit").click()
-       # self.fill_group_form(new_group_data)
-        #  fill group form
-        #wd.find_element_by_name("update").click()
-        #self.return_groups_page()
+
 
     def submit_contact(self):
         wd = self.app.wd
