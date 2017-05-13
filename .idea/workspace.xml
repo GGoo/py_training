@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50bc9eb-8110-47c8-a80f-cf98e6b414e7" name="Default" comment="">
+    <list default="true" id="a50bc9eb-8110-47c8-a80f-cf98e6b414e7" name="Default" comment="ex 8">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/conftest.py" afterPath="$PROJECT_DIR$/modyfication/conftest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/fixture/application.py" afterPath="$PROJECT_DIR$/modyfication/fixture/application.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/fixture/contact.py" afterPath="$PROJECT_DIR$/modyfication/fixture/contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/fixture/group.py" afterPath="$PROJECT_DIR$/modyfication/fixture/group.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/fixture/session.py" afterPath="$PROJECT_DIR$/modyfication/fixture/session.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_add_new_contact.py" afterPath="$PROJECT_DIR$/modyfication/test/test_add_new_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_del_group.py" afterPath="$PROJECT_DIR$/modyfication/test/test_del_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/model/contact.py" afterPath="$PROJECT_DIR$/modyfication/model/contact.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_add_group.py" afterPath="$PROJECT_DIR$/modyfication/test/test_add_group.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_modyf_contact.py" afterPath="$PROJECT_DIR$/modyfication/test/test_modyf_contact.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modyfication/test/test_modyf_group.py" afterPath="$PROJECT_DIR$/modyfication/test/test_modyf_group.py" />
     </list>
@@ -27,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_modyf_contact.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_modyf_contact.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+            <state relative-caret-position="120">
+              <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -39,41 +35,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modyfication/model/contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test_modyf_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modyfication/fixture/group.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modyfication/fixture/contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modyfication/fixture/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,10 +65,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modyfication/fixture/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modyfication/fixture/contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="80" column="65" lean-forward="false" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test_add_new_contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_new_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -105,17 +101,7 @@
         <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modyfication/fixture/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,7 +110,7 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modyfication/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="300">
               <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
@@ -212,20 +198,22 @@
         <option value="$PROJECT_DIR$/decompozyction/fixture/group.py" />
         <option value="$PROJECT_DIR$/modyfication/model/group.py" />
         <option value="$PROJECT_DIR$/modyfication/__init__.py" />
-        <option value="$PROJECT_DIR$/modyfication/test/test_add_group.py" />
         <option value="$PROJECT_DIR$/modyfication/test/test_del_group.py" />
         <option value="$PROJECT_DIR$/modyfication/fixture/application.py" />
         <option value="$PROJECT_DIR$/modyfication/fixture/session.py" />
-        <option value="$PROJECT_DIR$/modyfication/test/test_modyf_group.py" />
-        <option value="$PROJECT_DIR$/modyfication/fixture/contact.py" />
-        <option value="$PROJECT_DIR$/modyfication/fixture/group.py" />
-        <option value="$PROJECT_DIR$/modyfication/test/test_modyf_contact.py" />
         <option value="$PROJECT_DIR$/modyfication/test/test_add_new_contact.py" />
         <option value="$PROJECT_DIR$/modyfication/conftest.py" />
+        <option value="$PROJECT_DIR$/modyfication/model/contact.py" />
+        <option value="$PROJECT_DIR$/modyfication/fixture/group.py" />
+        <option value="$PROJECT_DIR$/modyfication/test/test_modyf_group.py" />
+        <option value="$PROJECT_DIR$/modyfication/test/test_add_group.py" />
+        <option value="$PROJECT_DIR$/modyfication/fixture/contact.py" />
+        <option value="$PROJECT_DIR$/modyfication/test/test_modyf_contact.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="38" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="719" />
@@ -246,6 +234,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,7 +331,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -711,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493906501996</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ex 8">
+      <created>1494516794403</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1494516794403</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -747,10 +742,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="719" extended-state="0" />
+    <frame x="38" y="23" width="1280" height="719" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32803813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3161239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18124007" sideWeight="0.5365622" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -807,11 +802,12 @@
     <MESSAGE value="add two test modyfication group and contact" />
     <MESSAGE value="clearing code" />
     <MESSAGE value="walidation" />
-    <option name="LAST_COMMIT_MESSAGE" value="walidation" />
+    <MESSAGE value="ex 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -996,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,15 +999,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/model/contact.py">
+    <entry file="file://$PROJECT_DIR$/modyfication/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_new_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modyfication/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,79 +1039,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_contact.py">
+    <entry file="file://$PROJECT_DIR$/modyfication/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/fixture/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modyfication/fixture/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="363">
+          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/fixture/application.py">
+    <entry file="file://$PROJECT_DIR$/modyfication/fixture/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="494">
+          <caret line="80" column="65" lean-forward="false" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/test/test_add_new_contact.py">
+    <entry file="file://$PROJECT_DIR$/modyfication/model/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="30">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modyfication/test/test_modyf_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modyfication/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
